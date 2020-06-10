@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31c3ff</color>
+    <color name="colorPrimaryDark">#54b3cc</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#dedcdc</color>
+    <color name="home_item_bg">#7f000000</color>
+    <color name="green">#ff1ec399</color>
+    <color name="transparent_layer">#7f000000</color>
+    <color name="colorMusicProgress">#ffcd2e</color>
+    <color name="white">#fff</color>
+    <color name="color_ffffffff">#ffffffff</color>
+    <color name="color_337239ff">#337239ff</color>
+    <color name="color_FF76B9">#FF76B9</color>
+    <color name="color_FFD1AC">#FFD1AC</color>
+    <color name="color_993c2e4c">#993c2e4c</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:cacheColorHint="@android:color/transparent" 滚动过程中没有黑色背景-->
+		<!-- android:listSelector="@drawable/transparent" 点中没有默认颜色-->
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simple_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="@android:color/transparent"
+    android:divider="@color/halfwhite"
+    android:dividerHeight="1dp"
+    android:listSelector="@android:color/transparent" >
+
+</ListView>

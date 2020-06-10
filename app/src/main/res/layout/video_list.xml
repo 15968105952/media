@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_bg"
+    android:orientation="vertical">
+    <!--include:包含,包含一个布局
+         将公共的布局,抽取出来,通过include引用
+     -->
+   <include layout="@layout/simple_listview"/>
+
+   <!-- <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="视频" />-->
+
+</LinearLayout>

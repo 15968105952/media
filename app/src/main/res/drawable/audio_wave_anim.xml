@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 动画集：类似gif
+    是否循环： oneshot
+    图片切换间隔： duration
+-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:drawable="@drawable/audio_anim_01" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_02" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_03" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_04" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_05" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_06" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_07" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_08" android:duration="200"/>
+    <item android:drawable="@drawable/audio_anim_09" android:duration="200"/>
+
+</animation-list>

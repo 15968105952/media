@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 视频播放模块 -->
+
+    <!--<cn.itcast.zz.mediaplayer17.view.VideoView-->
+    <!--android:id="@+id/video_player_videoview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true" />-->
+
+    <com.example.myapplication.view.VideoView
+        android:id="@+id/video_player_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <!-- 顶部控制栏 -->
+
+    <include layout="@layout/video_player_top" />
+
+    <!-- 底部控制栏 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/video_player_bottom" />
+
+    <!-- 亮度调整遮罩
+    	ee000000 : 前两位代表的是透明度
+    	00:完全透明
+    	ff:完全不透明
+     -->
+    <View
+        android:id="@+id/video_player_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ee000000" />
+    <!-- 加载中遮罩 -->
+
+    <!--<LinearLayout
+           android:id="@+id/video_player_ll_loading"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/bg_player_loading_background"
+           android:gravity="center"
+           android:orientation="horizontal"
+           android:visibility="gone" >
+
+           <ProgressBar
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:text="正使着吃奶得劲加载……"
+               android:textSize="20sp" />
+       </LinearLayout>-->
+
+</RelativeLayout>
